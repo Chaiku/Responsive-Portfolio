@@ -1,0 +1,278 @@
+
+
+header {
+    clear: both;
+    border-bottom: 1px solid black;
+}
+
+h1 {
+   float: left;
+   font-size: 30px;
+   background-color: teal;
+   padding: 22px 10px;
+   text-align: center;
+   position: relative;
+   left: 14px;
+
+}
+
+ul {
+   float: right;
+   background-color: white; 
+   padding: 5px;
+
+}
+
+
+li {
+   float: inherit;
+   padding: 15px 23px;
+   list-style: none;
+   border-right: 1px solid gray;
+   color: teal;
+   font-size: 34px;
+}
+
+
+main {
+    background-image: url(../images/white-waves.png);
+    position: relative;
+    padding-bottom: 80px;
+
+}
+
+.wrapper {
+    width: 960px;
+    margin: 0 auto;
+
+}
+
+.navBar {
+    background-color: white;
+    overflow: auto;
+}
+
+a:link, a:visited {
+    color: #4aaaa5;
+    text-decoration: none;
+}
+
+
+
+.mainBody {
+    background-color: white;
+    position: relative;
+    top: 30px;
+    padding: 5px;
+    height: 520px;
+    
+
+}
+
+h2 {
+    font-size: 40px;
+    padding: 15px;
+    color: teal;
+    border-bottom: 1px solid gray;
+
+}
+
+.aboutMe {
+    padding: 20px;
+    font-size: 26px;
+    letter-spacing: .5px;
+}
+
+#AdamProfile {
+    float: left;
+    transform: rotate(90deg);
+    height: 213px;
+    width: 220px;
+    padding: 8px;
+
+}
+
+footer {
+    background-color: darkslategray;
+    border-top: 5px solid teal;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+h3 {
+    color: white;
+    padding: 15px;
+    font-size: 14px;
+    text-align: center;
+}
+
+form {
+    font-size: 24px;
+    color: darkslategray;
+    padding: 30px;
+}
+
+.formInput {
+    width: 99%;
+    padding: 5px;
+    margin-bottom: 10px;
+    
+}
+
+.formMessage {
+    height: 225px;
+    margin-bottom: -5px;
+}
+
+.submitButton {
+    background-color: teal;
+    border: none;
+    text-align: center;
+    font-size: 26px;
+    color: white;
+}
+
+.folioBox {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    float: left;
+    margin: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+#vsfx {
+    background-image: url(../images/ClockworkReborn.PNG);
+
+}
+
+#drums {
+    background-image: url(../images/RaidersBass.PNG);
+    
+}
+
+#music {
+    background-image: url(../images/Soundcloud.jpg);
+}
+
+#voiceover {
+    background-image: url(../images/microphone.jpg);
+}
+
+ .folioLabel {
+     background-color: teal;
+     color: black;
+     font-size: 24px;
+     position: absolute;
+     top: 138px;
+     left: 0;
+     width: 100%;
+     text-align: center;
+ }
+
+.portfolio {
+    clear: both;
+}
+
+@media screen and (max-width: 970px) {
+    .wrapper {
+        width: 80%;
+
+    }
+
+    .folioBox {
+        padding: 5px;
+    }
+
+    #drums, #voiceover {
+        float: right;
+    }
+
+    .mainBody {
+        height: 539px;
+        margin-bottom: 30px;
+    }
+
+}
+
+@media screen and (max-width: 825px) {
+    main {
+        padding-bottom: 100px;
+    }
+
+    .mainBody {
+        height: 1000px;
+    }
+}
+
+@media screen and (max-width: 725px) {
+    .wrapper {
+        width: 70%;
+    }
+
+   nav {
+       width: 50%;
+       float: right;
+   }
+
+   .aboutMe {
+    font-size: 20px;
+    letter-spacing: .1px;
+   }
+
+
+}
+
+@media screen and (max-width: 525px) {
+
+  li {
+    display: inline;
+  }
+
+  #AdamProfile {
+      float: none;
+  }
+
+  .mainBody {
+      height: 1070px;
+  }
+  
+
+}
+
+@media screen and (max-width: 470px) {
+    nav {
+        float: none;
+        margin: 0 auto;
+    }
+
+    li {
+    border: none;
+
+    }
+
+    h1 {
+    float: none;
+    }
+
+    main {
+        background-image: none;
+    }
+
+    #drums, #voiceover, #music, #vsfx {
+        float: none;
+        margin: 5 auto;
+    }
+
+  }
+
+
+
+  
+
+
+
+
