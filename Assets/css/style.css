@@ -2,23 +2,24 @@
 
 header {
     clear: both;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #cccccc;
 }
 
 h1 {
    float: left;
    font-size: 30px;
-   background-color: teal;
+   background-color: #4aaaa5;
    padding: 22px 10px;
    text-align: center;
    position: relative;
    left: 14px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
 
 ul {
    float: right;
-   background-color: white; 
+   background-color: #ffffff; 
    padding: 5px;
 
 }
@@ -29,8 +30,9 @@ li {
    padding: 15px 23px;
    list-style: none;
    border-right: 1px solid gray;
-   color: teal;
+   color: #4aaaa5;
    font-size: 34px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 
@@ -48,7 +50,7 @@ main {
 }
 
 .navBar {
-    background-color: white;
+    background-color: #ffffff;
     overflow: auto;
 }
 
@@ -60,27 +62,30 @@ a:link, a:visited {
 
 
 .mainBody {
-    background-color: white;
+    background-color: #ffffff;
     position: relative;
     top: 30px;
     padding: 5px;
-    height: 520px;
-    
+    height: 575px;
+    border: 1px solid #dddddd;
 
 }
 
 h2 {
     font-size: 40px;
     padding: 15px;
-    color: teal;
-    border-bottom: 1px solid gray;
+    color: #4aaaa5;
+    border-bottom: 1px solid #dddddd;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
 
 .aboutMe {
     padding: 20px;
-    font-size: 26px;
+    font-size: 22px;
     letter-spacing: .5px;
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #AdamProfile {
@@ -93,23 +98,26 @@ h2 {
 }
 
 footer {
-    background-color: darkslategray;
-    border-top: 5px solid teal;
+    background-color: #666666;
+    border-top: 5px solid #4aaaa5;
     width: 100%;
     position: fixed;
     bottom: 0;
 }
+
 h3 {
-    color: white;
+    color: #ffffff;
     padding: 15px;
     font-size: 14px;
     text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 form {
     font-size: 24px;
-    color: darkslategray;
+    color: #777777;
     padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .formInput {
@@ -125,11 +133,12 @@ form {
 }
 
 .submitButton {
-    background-color: teal;
+    background-color: #4aaaa5;
     border: none;
     text-align: center;
     font-size: 26px;
     color: white;
+    font-family: Arial, Helvetica, sans-serif
 }
 
 .folioBox {
@@ -163,7 +172,7 @@ form {
 }
 
  .folioLabel {
-     background-color: teal;
+     background-color: #4aaaa5;
      color: black;
      font-size: 24px;
      position: absolute;
@@ -171,20 +180,41 @@ form {
      left: 0;
      width: 100%;
      text-align: center;
+     font-family: Arial, Helvetica, sans-serif;
  }
 
 .portfolio {
     clear: both;
 }
 
-@media screen and (max-width: 970px) {
+@media screen and (max-width: 980px) {
     .wrapper {
-        width: 80%;
+        width: 90%;
 
     }
 
     .folioBox {
         padding: 5px;
+        width: 200px;
+        height: 100px;
+        margin-top: 40px;
+    }
+
+    .folioLabel {
+        top: 75px;
+        font-size: 18px;
+    }
+
+    li {
+        font-size: 18px;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
+    h2 {
+        font-size: 24px;
     }
 
     #drums, #voiceover {
@@ -192,13 +222,24 @@ form {
     }
 
     .mainBody {
-        height: 539px;
+        height: 560px;
         margin-bottom: 30px;
+        width: 60%;
+        margin-left: 60px;
+    }
+
+    .aboutMe {
+        font-size: 16px;
+    }
+
+    #AdamProfile {
+        height: 113px;
+        width: 120px;
     }
 
 }
 
-@media screen and (max-width: 825px) {
+/* @media screen and (max-width: 825px) {
     main {
         padding-bottom: 100px;
     }
@@ -206,38 +247,105 @@ form {
     .mainBody {
         height: 1000px;
     }
-}
+} */
 
-@media screen and (max-width: 725px) {
+@media screen and (max-width: 768px) {
     .wrapper {
-        width: 70%;
+        width: 80%;
+
     }
 
-   nav {
-       width: 50%;
-       float: right;
-   }
+    h1 {
+        left: 0px;
+    }
+
+    main {
+        padding-bottom: 100px;
+    }
+
+    .mainBody {
+        height: 530px;
+    }
 
    .aboutMe {
-    font-size: 20px;
+    font-size: 17px;
     letter-spacing: .1px;
    }
 
 
 }
 
-@media screen and (max-width: 525px) {
+@media screen and (max-width: 640px) {
+
+
+  .navBar {
+      width: 100%;
+  }
+
+  nav {
+      margin: 0 auto;
+  }
+
+  ul {
+    float: none;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+  }
 
   li {
     display: inline;
+    border: none;
+    float: none;
+    padding: 3px 8px;
+    font-size: 16px;
+
+  }
+
+  h1 {
+      width: 100%;
+      float: none;
+      padding: 10px 5px;
+  }
+
+  h2 {
+      text-align: center;
   }
 
   #AdamProfile {
       float: none;
+      display: block;
+      margin: 0 auto;
+  }
+
+  .aboutMe {
+      font-size: 15px;
+  }
+
+  #drums, #voiceover, #vsfx, #music {
+      float: none;
+      display: block;
+
+  }
+
+  .folioBox {
+      margin: 10px auto;
   }
 
   .mainBody {
-      height: 1070px;
+      height: 650px;
+  }
+
+  header {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        padding-top: 0px;
+        z-index: 1;
+  }
+
+  main {
+      padding-top: 82px;
   }
   
 
