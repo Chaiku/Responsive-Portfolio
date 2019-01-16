@@ -90,7 +90,7 @@ h2 {
 
 #AdamProfile {
     float: left;
-    transform: rotate(90deg);
+    /* transform: rotate(90deg); */
     height: 213px;
     width: 220px;
     padding: 8px;
