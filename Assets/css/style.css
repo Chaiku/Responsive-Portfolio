@@ -311,7 +311,8 @@ form {
     }
 
     .aboutMe {
-      font-size: 15px;
+      font-size: 14px;
+      letter-spacing: 0px;
     }
 
     #drums, #voiceover, #vsfx, #music {
@@ -325,7 +326,7 @@ form {
     }
 
     .mainBody {
-      height: 650px;
+      height: 700px;
     }
 
     header {
