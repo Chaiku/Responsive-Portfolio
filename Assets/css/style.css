@@ -316,7 +316,7 @@ form {
       float: none;
       display: block;
       margin: 0 auto;
-      transform: none;
+      transform: rotate(90deg);
   }
 
   .aboutMe {
