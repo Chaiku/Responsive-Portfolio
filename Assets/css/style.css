@@ -239,15 +239,6 @@ form {
 
 }
 
-/* @media screen and (max-width: 825px) {
-    main {
-        padding-bottom: 100px;
-    }
-
-    .mainBody {
-        height: 1000px;
-    }
-} */
 
 @media screen and (max-width: 768px) {
     .wrapper {
@@ -268,9 +259,9 @@ form {
     }
 
    .aboutMe {
-    font-size: 17px;
-    letter-spacing: .1px;
-   }
+        font-size: 17px;
+        letter-spacing: .1px;
+    }
 
 
 }
@@ -278,105 +269,81 @@ form {
 @media screen and (max-width: 640px) {
 
 
-  .navBar {
+    .navBar {
       width: 100%;
-  }
+    }
 
-  nav {
+    nav {
       margin: 0 auto;
-  }
+    }
 
-  ul {
-    float: none;
-    margin: auto;
-    width: 100%;
-    text-align: center;
-  }
+    ul {
+        float: none;
+        margin: auto;
+        width: 100%;
+        text-align: center;
+    }
 
-  li {
-    display: inline;
-    border: none;
-    float: none;
-    padding: 3px 8px;
-    font-size: 16px;
+    li {
+        display: inline;
+        border: none;
+        float: none;
+        padding: 3px 8px;
+        font-size: 16px;
 
-  }
+    }
 
-  h1 {
+    h1 {
       width: 100%;
       float: none;
       padding: 10px 5px;
-  }
+    }
 
-  h2 {
+    h2 {
       text-align: center;
-  }
+    }
 
-  #AdamProfile {
+    #AdamProfile {
       float: none;
       display: block;
       margin: 0 auto;
       transform: rotate(90deg);
-  }
+    }
 
-  .aboutMe {
+    .aboutMe {
       font-size: 15px;
-  }
+    }
 
-  #drums, #voiceover, #vsfx, #music {
+    #drums, #voiceover, #vsfx, #music {
       float: none;
       display: block;
 
-  }
+    }
 
-  .folioBox {
+    .folioBox {
       margin: 10px auto;
-  }
+    }
 
-  .mainBody {
+    .mainBody {
       height: 650px;
-  }
+    }
 
-  header {
+    header {
         position: fixed;
         top: 0;
         width: 100%;
         padding-top: 0px;
         z-index: 1;
-  }
+    }
 
-  main {
+    main {
       padding-top: 82px;
-  }
+    }
   
 
 }
 
-@media screen and (max-width: 470px) {
-    nav {
-        float: none;
-        margin: 0 auto;
-    }
 
-    li {
-    border: none;
-
-    }
-
-    h1 {
-    float: none;
-    }
-
-    main {
-        background-image: none;
-    }
-
-    #drums, #voiceover, #music, #vsfx {
-        float: none;
-        margin: 5 auto;
-    }
-
-  }
 
 
 
