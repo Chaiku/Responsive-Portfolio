@@ -90,7 +90,7 @@ h2 {
 
 #AdamProfile {
     float: left;
-    /* transform: rotate(90deg); */
+    transform: rotate(90deg);
     height: 213px;
     width: 220px;
     padding: 8px;
@@ -307,7 +307,7 @@ form {
       float: none;
       display: block;
       margin: 0 auto;
-      transform: rotate(90deg);
+      -webkit-transform: rotate(90deg);
     }
 
     .aboutMe {
