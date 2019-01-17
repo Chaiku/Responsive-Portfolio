@@ -344,7 +344,7 @@ form {
 
 }
 
-@media screen and (max-width: 440px) {
+@media screen and (max-width: 400px) {
 
     #AdamProfile {
         transform: initial;
