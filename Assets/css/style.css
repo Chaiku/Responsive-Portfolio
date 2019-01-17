@@ -307,7 +307,6 @@ form {
       float: none;
       display: block;
       margin: 0 auto;
-      transform: initial;
     }
 
     .aboutMe {
@@ -343,6 +342,13 @@ form {
     }
   
 
+}
+
+@media screen and (max-width: 440px) {
+
+    #AdamProfile {
+        transform: initial;
+    }
 }
 
 
